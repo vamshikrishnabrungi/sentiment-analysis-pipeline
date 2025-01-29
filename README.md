@@ -13,8 +13,12 @@ Setup Instructions
 
 Before anything, install the required packages:
    pip install -r requirements.txt
+
+   
 2. Run the data_ingestion.py 
 The IMDB dataset will automatically download during data preprocessing, so there's no need for manual setup of the dataset.
+
+
 3. Run model_training.py
 Here we train the logistic regression and dilstilbert, i commented the traning part of dilstilbert because its too time consuming.
 The trained model is stored in google drive and below is the link, 
